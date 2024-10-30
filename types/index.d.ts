@@ -1,5 +1,5 @@
-import type { RedisOptions } from "ioredis";
-import type { MQEmitter } from "mqemitter";
+import type { RedisOptions } from 'ioredis';
+import type { MQEmitter } from 'mqemitter';
 
 declare module "mqemitter-redis" {
   export interface MQEmitterOptions {
